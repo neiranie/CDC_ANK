@@ -35,7 +35,7 @@
             // 
             // btnConnect
             // 
-            this.btnConnect.Location = new System.Drawing.Point(557, 573);
+            this.btnConnect.Location = new System.Drawing.Point(168, 273);
             this.btnConnect.Name = "btnConnect";
             this.btnConnect.Size = new System.Drawing.Size(256, 109);
             this.btnConnect.TabIndex = 0;
@@ -45,17 +45,18 @@
             // 
             // btnDisconnect
             // 
-            this.btnDisconnect.Location = new System.Drawing.Point(917, 573);
+            this.btnDisconnect.Location = new System.Drawing.Point(528, 273);
             this.btnDisconnect.Name = "btnDisconnect";
             this.btnDisconnect.Size = new System.Drawing.Size(256, 109);
             this.btnDisconnect.TabIndex = 1;
             this.btnDisconnect.Text = "Disconnect Database";
             this.btnDisconnect.UseVisualStyleBackColor = true;
+            this.btnDisconnect.Click += new System.EventHandler(this.btnDisconnect_Click_1);
             // 
             // lblStatus
             // 
             this.lblStatus.AutoSize = true;
-            this.lblStatus.Location = new System.Drawing.Point(839, 481);
+            this.lblStatus.Location = new System.Drawing.Point(450, 181);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(70, 25);
             this.lblStatus.TabIndex = 2;

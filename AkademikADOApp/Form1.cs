@@ -35,7 +35,7 @@ namespace AkademikADOApp
                 MessageBox.Show("Koneksi gagal : " + ex.Message);
             }
         }
-        private void btnDisconnect_Click(object sender, EventArgs e)
+        private void btnDisconnect_Click_1(object sender, EventArgs e)
         {
             try
             {
@@ -44,12 +44,13 @@ namespace AkademikADOApp
 
                 lblStatus.Text = "Status : Database Disonnected";
 
-                MessageBox.Show("Koneksi ke database berhasil!");
+                MessageBox.Show("Koneksi ke database gagal!");
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Koneksi gagal : " + ex.Message);
             }
         }
+
     }
 }
