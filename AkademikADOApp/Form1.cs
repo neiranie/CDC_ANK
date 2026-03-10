@@ -37,3 +37,7 @@ namespace AkademikADOApp
         }
         private void btnDisconnect_Click(object sender, EventArgs e)
         {
+            try
+            {
+                conn = new SqlConnection(connString);
+                conn.Open();
