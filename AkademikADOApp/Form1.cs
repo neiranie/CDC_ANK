@@ -35,3 +35,5 @@ namespace AkademikADOApp
                 MessageBox.Show("Koneksi gagal : " + ex.Message);
             }
         }
+        private void btnDisconnect_Click(object sender, EventArgs e)
+        {
