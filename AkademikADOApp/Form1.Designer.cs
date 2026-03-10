@@ -41,6 +41,7 @@
             this.btnConnect.TabIndex = 0;
             this.btnConnect.Text = "Connect Database";
             this.btnConnect.UseVisualStyleBackColor = true;
+            this.btnConnect.Click += new System.EventHandler(this.btnConnect_Click);
             // 
             // btnDisconnect
             // 
